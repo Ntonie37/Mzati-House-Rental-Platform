@@ -10,7 +10,8 @@ Download and install XAMPP from the official website: XAMPP.
 Follow the installation instructions provided for your operating system.
 Project Files:
 
-Download or  the Mzati House Rental Platform project from this repository link.
+Download or  the Mzati House Rental Platform project from this repository link :  https://github.com/Ntonie37/Mzati-House-Rental-Platform.git
+
 Installation Steps:
 Extract Project:
 
