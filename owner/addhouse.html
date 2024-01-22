@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Add house</title>
+	</head>
+
+	<body>
+
+
+
+		
+
+	<div class="container">
+		<h3 style="font-weight: bold; text-align: center;;">Add House</h3><hr><br>
+  
+  
+		<form method="POST" action="addhouse.php" enctype="multipart/form-data">
+		  <div class="form-group">
+			<label for="property_title">Property Title:</label>
+			<input type="text" class="form-control" id="property_title" placeholder="House for rent" name="property_title" required>
+		  </div>
+		  <div class="form-group">
+			<label for="property_details" text-align:left>Property Details:</label>
+			<input type="textbox" class="form-control" id="property_details" placeholder="Details" name="property_details" required>
+		  </div>
+		  <div class="form-group">
+			<label for="price">Price:</label>
+			<input type="number" class="form-control" id="price" placeholder="Enter price of your property" name="price" required>
+		  </div>
+		  <div class="form-group">
+			<label for="property_address">Location:</label>
+			<input type="text" class="form-control" id="property_address" placeholder="Enter the location of your property" name="property_address" required>
+		  </div>
+		  <div class="form-group">
+			<label for="property_img">Upload Pictures:</label>
+			<input type="file" class="form-control" id="property_img" placeholder="Upload Pictures" name="property_img" required>
+		  </div>
+		  <div class="form-group">
+			<label for="utility">Utility:</label>
+			<input type="text" class="form-control" id="utility" placeholder="" name="utility" required>
+		  </div>
+  
+  
+		  <hr>
+		  <button id="submit" name="submit" class="btn btn-primary btn-block">Add House</button> <br>
+		  <div class="form-group text-right">
+  
+		  </div><br><br>
+		</form>
+	  </div>
+  
+		
+
+
+
+
+
+
+
+
+
+	</body>
+</html>
+
+
+
